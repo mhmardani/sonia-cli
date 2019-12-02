@@ -1,0 +1,21 @@
+{
+  "name": "sonia-cli",
+  "version": "1.0.0",
+  "description": "Command line interface for rapid Soniajs development",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin":{
+    "sonia": "./bin/sonia.js"
+  },
+  "keywords": [
+    "sonia",
+    "cli"
+  ],
+  "author": "mhmardani",
+  "license": "ISC",
+  "engines": {
+    "node": ">=8.9"
+  }
+}
