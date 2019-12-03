@@ -1,13 +1,13 @@
 {
   "name": "sonia-cli",
   "version": "1.0.0",
-  "description": "Command line interface for rapid Soniajs development",
+  "description": "Command line interface for rapid sonia js development",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "bin":{
-    "sonia": "./bin/sonia.js"
+  "bin": {
+    "sonia-cli": "./bin/sonia.js"
   },
   "keywords": [
     "sonia",
@@ -17,5 +17,10 @@
   "license": "ISC",
   "engines": {
     "node": ">=8.9"
+  },
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "commander": "^4.0.1",
+    "semver": "^6.3.0"
   }
 }
