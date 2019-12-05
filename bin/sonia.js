@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const {chalk,semver} = require('../lib/shared-util');
+const {chalk,semver} = require('../lib/shared-libs');
 const package = require('../package.json');
 
 function checkNodeVersion (wanted) {
@@ -48,7 +48,6 @@ program.Command.prototype['missingArgument'] = function (...args) {
     console.log();
     process.exit(1);
 };
-
 
 if (!process.argv.slice(2).length) {
     program.outputHelp();

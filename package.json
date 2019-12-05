@@ -21,6 +21,8 @@
   "dependencies": {
     "chalk": "^3.0.0",
     "commander": "^4.0.1",
-    "semver": "^6.3.0"
+    "execa": "^3.4.0",
+    "semver": "^6.3.0",
+    "util": "^0.12.1"
   }
 }
